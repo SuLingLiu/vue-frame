@@ -5,6 +5,7 @@
       <router-link to="/">首页</router-link> 
       <router-link to="/shop">商品列表页</router-link>
       <router-link to="/routercase/1">路由示例</router-link>
+      <router-link to="/grammar">语法区</router-link>
     </nav>
     <transition name="router-fade" mode="out-in">
       <router-view/>

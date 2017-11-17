@@ -10,6 +10,8 @@ const case1 = () =>
   import ('@/pages/routercase/children/case1');
 const case2 = () =>
   import ('@/pages/routercase/children/case2');
+const grammar = () =>
+  import ('@/pages/grammar/grammar');
 
 Vue.use(Router)
 
@@ -49,6 +51,10 @@ export default new Router({
           component: case2
         }
       ]
+    },
+    {
+      path: '/grammar',
+      component: grammar
     },
     {
       path: '*',
